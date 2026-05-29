@@ -64,7 +64,7 @@ func TestVideogenKaraokeColorsMatchPlaybackLyrics(t *testing.T) {
 	js := string(jsContent)
 	for _, want := range []string{
 		`const karaokeTextColor = "#ffffff"`,
-		`const karaokeAccentColor = "#10b981"`,
+		`const karaokeAccentColor = "#12bd85"`,
 		`karaokeStrokeText(lineText, x, y, layout.lineHeight, baseColor, karaokeAccentColor, alpha)`,
 		`const blockAlpha = isCurrent ? 1 : 0.72`,
 		`karaokeTextColor`,

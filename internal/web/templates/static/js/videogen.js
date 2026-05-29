@@ -354,7 +354,7 @@
                 };
 
                 const karaokeTextColor = "#ffffff";
-                const karaokeAccentColor = "#10b981";
+                const karaokeAccentColor = "#12bd85";
                 const karaokeStrokeText = (text, x, y, lineHeight, fillColor, strokeColor, alpha) => {
                     ctx.save();
                     ctx.globalAlpha = alpha;
